@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Connexion</title>
+    <link rel="stylesheet" href="connection.css">
+</head>
+<header>
+    <nav>
+        <a href="../acceuil.html"><img src="../anime-flix.png" alt=""></a>
+        <a href="../acceuil.html"><h2>Accueil</h2></a>
+        <a href="../Anime.html"><h2>Animés</h2></a>
+        <a href="../Films.html"><h2>Films</h2></a>
+        <a href="../edits.html"><h2>Edits</h2></a>
+        <a href="../index.html"><h2>Script</h2></a>
+        <a href="../qcm.html"><h2>Quizz</h2></a>
+    </nav>
+</header>
+<body>
+<form id="loginForm" onsubmit="return validateForm()">
+    <label for="email"><h3>Adresse e-mail :</h3></label>
+    <input type="text" id="email" name="email" required>
+    <span id="error-message"></span>
+    <label for="password"><h3>Password :</h3></label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <input type="submit" value="Login">
+    <script src="verification.js"></script>
+</form>
+
+</body>
+</html>
